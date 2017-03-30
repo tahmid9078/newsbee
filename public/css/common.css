@@ -1,0 +1,16 @@
+.jumbotron {
+    
+    background: url("/images/2.jpg") no-repeat center fixed; 
+    background-size: cover;
+}
+.welcome{
+	animation-name:example;
+	animation-duration:1.5s;
+	animation-iteration-count: infinite;
+	animation-direction:alternate;
+}
+@keyframes example{
+    from{color:#dee3ed;}
+    to{color:#41567f;}
+
+}
